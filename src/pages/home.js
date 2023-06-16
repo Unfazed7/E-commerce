@@ -13,69 +13,69 @@ const home = () => {
             <div className="col-6">
               <div className="main-banner position-relative">
                 <img 
-                     src="images/main-banner-1.jpg"
+                     src="images/main-banner.jpg"
                      className="img-fluid rounded-3" 
                      alt="main banner"
                 />
                 <div className="main-banner-content position-absolute">
-                  <h4>SUPERCHARGED FOR PROS</h4>
-                  <h5>ipad S13 Pro.</h5>
-                  <p>From Rs999 or Rs99/mo.</p>
+                  <h4>Lightning Deals On</h4>
+                  <h5>Men's Oversized</h5>
+                  <p>From Rs499 </p>
                   <Link className="button">BUY NOW</Link>
                 </div> 
               </div>
             </div>
             <div className="col-6">
               <div className="d-flex flex-wrap gap-10 justify-content-between align-items-center">
-              <div className="small-banner position-relative">
+              <div className="small-banner-1 position-relative">
                 <img 
                      src="images/catbanner-01.jpg"
                      className="img-fluid rounded-3" 
                      alt="main banner"
                 />
-                <div className="small-banner-content position-absolute">
+                <div className="small-banner-content-1 position-absolute">
                   <h4>BEST SALE</h4>
-                  <h5>Laptops Max</h5>
-                  <p>From Rs999 or <br/>Rs99/mo.</p>
+                  <h5>WinterWear</h5>
+                  <p>From Rs199</p>
                   
                 </div> 
               </div>
-              <div className="small-banner position-relative">
+              <div className="small-banner-2 position-relative">
                 <img 
                      src="images/catbanner-02.jpg"
                      className="img-fluid rounded-3" 
                      alt="main banner"
                 />
-                <div className="small-banner-content position-absolute">
+                <div className="small-banner-content-2 position-absolute">
                   <h4>15% OFF</h4>
-                  <h5>Smartwatch 7</h5>
-                  <p>Shop the latest band <br/>styles and colors</p>
+                  <h5>Basic Tees</h5>
+                  <p>Shop the latest styles </p>
                   
                 </div> 
               </div>
-              <div className="small-banner position-relative">
+              <div className="small-banner-3 position-relative">
                 <img 
                      src="images/catbanner-03.jpg"
                      className="img-fluid rounded-3" 
                      alt="main banner"
                 />
-                <div className="small-banner-content position-absolute">
+                <div className="small-banner-content-3 position-absolute">
                   <h4>NEW ARRIVAL</h4>
-                  <h5>But IPad Air</h5>
-                  <p>From Rs999 or <br/>Rs99/mo.</p>
+                  <h5>Mens EthnicWear</h5>
+                  <p>From Rs999 </p>
                   
                 </div> 
               </div>
-              <div className="small-banner position-relative ">
+              <div className="small-banner-4 position-relative ">
                 <img 
                      src="images/catbanner-04.jpg"
                      className="img-fluid rounded-3" 
                      alt="main banner"
                 />
-                <div className="small-banner-content position-absolute">
-                  <h4>FREE ENGRAVING</h4>
-                  <h5>AirPods Max</h5>
-                  <p>High-fifelity playback &<br/>ultra-low distortion</p>
+                <div className="small-banner-content-4 position-absolute">
+                  <h4>Big Discounts</h4>
+                  <h5>Men's Formals</h5>
+                  <p>High-fifelity playback</p>
                   
                 </div> 
               </div>
