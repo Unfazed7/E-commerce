@@ -45,18 +45,18 @@ const footer = () => {
                 
 
                 <div className="social_icons d-flex align-items-center gap-30 ">
-                  <a className="text-white">
+                  <a className="text-white" href='https://www.linkedin.com/in/omkar-ghankute-8a91a223b'>
                     <BsLinkedin className="fs-4" />
                   </a>
-                  <a className="text-white">
+                  <a className="text-white" href='https://github.com/Unfazed7'>
                     <BsGithub className="fs-4" />
                   </a>
-                  <a className="text-white">
+                  
                     <BsInstagram className="fs-4" />
-                  </a>
-                  <a className="text-white">
+                  
+                  
                     <BsTwitter className="fs-4" />
-                  </a>
+                  
                 </div>
               </div>           
             </div>
