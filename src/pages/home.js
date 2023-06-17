@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Marquee from "react-fast-marquee";
 import BlogCard from '../components/BlogCard';
 import ProductCard from '../components/ProductCard';
+import SpecialProducts from '../components/SpecialProducts';
 
 const home = () => {
   return (
@@ -13,9 +14,9 @@ const home = () => {
             <div className="col-6">
               <div className="main-banner position-relative">
                 <img 
-                     src="images/main-banner.jpg"
-                     className="img-fluid rounded-3" 
-                     alt="main banner"
+                    src="images/main-banner.jpg"
+                    className="img-fluid rounded-3" 
+                    alt="main banner"
                 />
                 <div className="main-banner-content position-absolute">
                   <h4>Lightning Deals On</h4>
@@ -29,9 +30,9 @@ const home = () => {
               <div className="d-flex flex-wrap gap-10 justify-content-between align-items-center">
               <div className="small-banner-1 position-relative">
                 <img 
-                     src="images/catbanner-01.jpg"
-                     className="img-fluid rounded-3" 
-                     alt="main banner"
+                    src="images/catbanner-01.jpg"
+                    className="img-fluid rounded-3" 
+                    alt="main banner"
                 />
                 <div className="small-banner-content-1 position-absolute">
                   <h4>BEST SALE</h4>
@@ -42,9 +43,9 @@ const home = () => {
               </div>
               <div className="small-banner-2 position-relative">
                 <img 
-                     src="images/catbanner-02.jpg"
-                     className="img-fluid rounded-3" 
-                     alt="main banner"
+                    src="images/catbanner-02.jpg"
+                    className="img-fluid rounded-3" 
+                    alt="main banner"
                 />
                 <div className="small-banner-content-2 position-absolute">
                   <h4>15% OFF</h4>
@@ -55,9 +56,9 @@ const home = () => {
               </div>
               <div className="small-banner-3 position-relative">
                 <img 
-                     src="images/catbanner-03.jpg"
-                     className="img-fluid rounded-3" 
-                     alt="main banner"
+                    src="images/catbanner-03.jpg"
+                    className="img-fluid rounded-3" 
+                    alt="main banner"
                 />
                 <div className="small-banner-content-3 position-absolute">
                   <h4>NEW ARRIVAL</h4>
@@ -68,9 +69,9 @@ const home = () => {
               </div>
               <div className="small-banner-4 position-relative ">
                 <img 
-                     src="images/catbanner-04.jpg"
-                     className="img-fluid rounded-3" 
-                     alt="main banner"
+                    src="images/catbanner-04.jpg"
+                    className="img-fluid rounded-3" 
+                    alt="main banner"
                 />
                 <div className="small-banner-content-4 position-absolute">
                   <h4>Big Discounts</h4>
@@ -91,35 +92,35 @@ const home = () => {
             <div className="col-12">
               <div className="services d-flex align-items-center justify-content-between">
                 <div className="d-flex align-items-center gap-15">
-               <img src="images/service.png" alt="services" />
+              <img src="images/service.png" alt="services" />
                   <div>
                     <h6>Free Shipping</h6>
                     <p className="mb-0">From all orders over 1490 Rs</p>
                   </div>
                 </div>
                 <div className="d-flex align-items-center gap-15">
-               <img src="images/service-02.png" alt="services" />
+              <img src="images/service-02.png" alt="services" />
                   <div>
                     <h6>Daily Surprise Offers</h6>
                     <p className="mb-0">Save upto 50%</p>
                   </div>
                 </div>
                 <div className="d-flex align-items-center gap-15">
-               <img src="images/service-03.png" alt="services" />
+              <img src="images/service-03.png" alt="services" />
                   <div>
                     <h6>Support 24/7</h6>
                     <p className="mb-0">Shop with an expert</p>
                   </div>
                 </div>
                 <div className="d-flex align-items-center gap-15">
-               <img src="images/service-04.png" alt="services" />
+              <img src="images/service-04.png" alt="services" />
                   <div>
                     <h6>Affordable Prices</h6>
                     <p className="mb-0">Get Factory direct prices</p>
                   </div>
                 </div>
                 <div className="d-flex align-items-center gap-15">
-               <img src="images/service-05.png" alt="services" />
+              <img src="images/service-05.png" alt="services" />
                   <div>
                     <h6>Secure Payments</h6>
                     <p className="mb-0">100% Protected Payments</p>
@@ -196,6 +197,48 @@ const home = () => {
         </div>
       </div>
       </section>
+      <section className="featured-wrapper py-5 home-wrapper-2">
+        <div className="container-xxl">
+          <div className='row'>
+            <div className='col-12'>
+              <h3 className='section-heading'>Featured Collection</h3>
+            </div>
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+          </div>
+        </div>
+      </section>
+      <section className='special-wrapper py-5 home-wrapper-2'>
+        <div className='container-xxl'>
+          <div className='row'>
+          <div className='col-12'>
+              <h3 className='section-heading'>Special Products</h3>
+            </div>
+          </div>
+          <div className='row'>
+            <SpecialProducts/>
+            <SpecialProducts/>
+            <SpecialProducts/>
+          </div>
+        </div>
+      </section>
+      <section className="popular-wrapper py-5 home-wrapper-2">
+        <div className="container-xxl">
+          <div className='row'>
+            <div className='col-12'>
+              <h3 className='section-heading'>Our Popular Products</h3>
+            </div>
+             <div className='row'>
+              <ProductCard/>
+              <ProductCard/>
+              <ProductCard/>
+              <ProductCard/>
+             </div>
+          </div>
+        </div>
+      </section>
       <section className="marque-wrapper py-5">
         <div className="container-xxl">
           <div className="row">
@@ -223,19 +266,6 @@ const home = () => {
                   </Marquee>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-      <section className="blog-wrapper py-5 home-wrapper-2">
-        <div className="container-xxl">
-          <div className='row'>
-            <div className='col-12'>
-              <h3 className='section-heading'>Featured Collection</h3>
-            </div>
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
           </div>
         </div>
       </section>
