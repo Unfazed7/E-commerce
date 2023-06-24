@@ -41,7 +41,7 @@ const header = () => {
                   </Link>
                 </div>
                 <div>
-                  <Link to="../components/login" className="d-flex align-items-center gap-10 text-white">
+                  <Link to="../components/login.js" className="d-flex align-items-center gap-10 text-white">
                     <img src="images/user.svg" alt="User"/>
                     <p className="mb-0">Log in <br/> My Account</p>
                   </Link>
