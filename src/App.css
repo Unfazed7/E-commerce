@@ -463,3 +463,50 @@ footer .input-group-text{
   background-color: #f8050de0!important;
 }
 /*Special Product part ends*/
+
+/*Famous Product part */
+.famous-card .famous-content{
+  top: 10%;
+  left: 10%;
+}
+
+.famous-content h5{
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 7px;
+}
+
+.famous-content h6{
+  font-size: 28px;
+  line-height: 38px;
+  font-weight: 500;
+  color: white;
+}
+
+.famous-content p{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 100;
+  color: white;
+}
+/*Famous Product part ends*/
+
+/*Login part*/
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.h-custom {
+  height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+  .h-custom {
+  height: 100%;
+  }
+}
+/*Login part ends*/
