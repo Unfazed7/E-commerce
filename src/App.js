@@ -20,11 +20,5 @@ function App() {
   </>
   );
 }
-/*
-Dont forget to add header components
- <NavLink to "/"> Home </NavLink>
-                  <NavLink to ""> Our Stores </NavLink>
-                  <NavLink to ""> Blogs </NavLink>
-                  <NavLink to ""> Contact </NavLink>
-*/
+
 export default App;
